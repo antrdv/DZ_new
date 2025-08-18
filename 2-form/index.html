@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+    <main>
+        <h1>Регистрация</h1>
+        <p> Уже есть аккаунт</p>
+        <a href="https://example.com">Войти</a>
+        <form action="#">
+
+            <div>
+                <label for="company"></label>
+                <input type="text" name="company" id="company" placeholder="Название компании">
+            </div>
+            <div>
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Имя" required>
+            </div>
+            <div>
+                <label for="surname"></label>
+                <input type="text" name="surename" id="surename" placeholder="Фамилия" required>
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Введите email" required>
+            </div>
+            <button> Зарегистрироваться</button>
+            <div>
+                <label>
+                    <input type="checkbox" name="agree">
+                    Я прочитал и принимаю
+                </label>
+                <a href="https://example.com">Условия использования</a>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

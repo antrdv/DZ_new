@@ -1,0 +1,102 @@
+main {
+    background: #FFFEFE;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-family: 'Opem Sans', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #333333;
+}
+
+a {
+    font-family: "Open Sans", sans-serif;
+    color: #089FE0;
+    /* основной цвет ссылки */
+    text-decoration: none;
+    /* убрать подчёркивание */
+}
+
+p {
+    font-family: 'Opem Sans', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #666666;
+}
+
+input {
+    background: #F5F5F5;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    font-family: 'Open Sans', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    border: 1px;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #999999;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.agree {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #666666;
+}
+
+.agree input [type="checkbox"] {
+    color: #F5F5F5;
+    border: 1px;
+    border-color: #EEEEEE;
+    border-radius: 1px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+button {
+    display: inline-block;
+    /* делаем блочным, но в строке */
+    padding: 10px 20px;
+    /* внутренние отступы: сверху/снизу, слева/справа */
+    font-size: 18px;
+    /* размер текста */
+    font-weight: 400;
+    /* полужирный */
+    font-family: "Open Sans", sans-serif;
+    /* твой шрифт */
+    color: #fff;
+    /* цвет текста */
+    background-color: #089FE0;
+    /* цвет фона (синий) */
+    border: none;
+    /* убираем стандартную рамку */
+    border-radius: 5px;
+    /* скругляем углы */
+    cursor: pointer;
+    /* меняем курсор на руку */
+    transition: background 0.3s;
+    /* плавное изменение цвета при hover */
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* цвет фона при наведении */
+}
+
+button:active {
+    background-color: #004080;
+    /* цвет при нажатии */
+}
+
+button:disabled {
+    background-color: #ccc;
+    /* «заблокированная» кнопка */
+    cursor: not-allowed;
+}
